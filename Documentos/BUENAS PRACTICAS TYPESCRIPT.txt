@@ -1,0 +1,7 @@
+BUENAS PRÁCTICAS TYPESCRIPT
+
+1. Si una función recibe más de tres parámetros, entonces se recomienda enviar un objeto
+
+2. Cuando se tiene una variable que apunta a otra con el  mismo nombre (variableX = variableX) se puede poner solo el nombre (variableX) no con el igual
+
+3. Cuando se hagan exportaciones se debe procurar no tener ningún tipo de código ejecutable, solo interfaces, tipos, etc. porque al importar un archivo se está ejecutando ese archivo completo
