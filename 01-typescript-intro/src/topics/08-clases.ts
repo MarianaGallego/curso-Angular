@@ -10,6 +10,8 @@ export class Person {
 }
 
 /*
+
+// Usando herencia
 export class Hero extends Person {
 
 
@@ -22,7 +24,7 @@ export class Hero extends Person {
 }
 */
 
-// Composición
+// usando composición
 export class Hero {
 
     //public person: Person;
